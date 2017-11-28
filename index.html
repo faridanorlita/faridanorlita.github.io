@@ -71,8 +71,8 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 .sidebar1 {
 	float: left;
 	width: 180px;
-	background: #EADCAE;
 	padding-bottom: 10px;
+	background-color: #6699CC;
 }
 .content {
 
@@ -94,13 +94,14 @@ ul.nav {
 }
 ul.nav li {
 	border-bottom: 1px solid #666; /* this creates the button separation */
+	color: #000000;
 }
 ul.nav a, ul.nav a:visited { /* grouping these selectors makes sure that your links retain their button look even after being visited */
 	padding: 5px 5px 5px 15px;
 	display: block; /* this gives the link block properties causing it to fill the whole LI containing it. This causes the entire area to react to a mouse click. */
 	width: 160px;  /*this width makes the entire button clickable for IE6. If you don't need to support IE6, it can be removed. Calculate the proper width by subtracting the padding on this link from the width of your sidebar container. */
 	text-decoration: none;
-	background: #C6D580;
+	background-color: #666699;
 }
 ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background and text color for both mouse and keyboard navigators */
 	background: #ADB96E;
